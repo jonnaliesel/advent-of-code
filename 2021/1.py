@@ -8,4 +8,11 @@ for index, item in enumerate(data) :
     if item > data[index -1]:
         increased += 1
 
-print (increased)
+increased = 0
+
+for count, value in enumerate(data) :
+    if value > data[count -1]:
+        increased += 1
+
+print (f'Distance increase: {increased}')
+print (f'Window increase: {increased}')
