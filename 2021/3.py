@@ -1,6 +1,3 @@
-from typing import Type
-
-
 data = []
 modified_data = {}
 
@@ -11,6 +8,7 @@ for line in open('3.txt', 'r').readlines():
     data.append(str(line.strip()))
 
 # part one
+
 for item in data:
     for index, character in enumerate(item):
         try:
