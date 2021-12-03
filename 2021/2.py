@@ -15,14 +15,12 @@ for index, item in enumerate(data):
 
     if direction == 'up' :
         depth -= steps
-        print(f'{depth}')
     elif direction == 'down' :
         depth += steps
-        print(f'{depth}')
     elif direction == 'forward' :
         horizontal += steps
-        print(f'{horizontal}')
 
+print('*** Part one ***')
 print (f'Horizontal: {horizontal}')
 print (f'Depth: {depth}')
-print (f'Product: {depth * horizontal}')
+print (f'Product: {depth * horizontal}\n')
