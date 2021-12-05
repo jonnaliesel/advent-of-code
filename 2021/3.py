@@ -1,6 +1,3 @@
-from os import remove
-
-
 data = []
 modified_data = {}
 
