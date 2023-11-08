@@ -1,4 +1,4 @@
-from puzzle_input import get_puzzle_input
+from ..puzzle_input import get_puzzle_input
 
 all_elves = get_puzzle_input(1)
 
