@@ -52,7 +52,7 @@ def find_accessible_positions(grid: dict) -> list[tuple[int, int]]:
         neighbor_count = sum(
             1 for dr, dc in DIRECTIONS
             if (row + dr, col + dc) in grid
-            and grid[(row + dr, col + dc)] == PAPER_ROLL:
+            and grid[(row + dr, col + dc)] == PAPER_ROLL
         )
         
         if neighbor_count < MAX_NEIGHBORS:
